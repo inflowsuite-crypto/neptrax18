@@ -271,7 +271,7 @@ export default function Services({ onNavigate }: ServicesProps) {
                   {/* Main image container with glass effect */}
                   <div className="relative overflow-hidden rounded-3xl glass-card">
                     <img
-                      src="public/portfolio/wildebrands.png"
+                      src="public/pic.png"
                       alt="Website development demo"
                       className="w-full h-[500px] object-cover image-float"
                     />
