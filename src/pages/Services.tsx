@@ -307,8 +307,8 @@ export default function Services({ onNavigate }: ServicesProps) {
 </span><br />
                 <span className="text-line" style={{ animationDelay: '0.3s' }}>Reclaim your time for</span><br />
                 <span className="text-line" style={{ animationDelay: '0.4s' }}>What truly grows your</span><br />
-                <span className="text-line" style={{ animationDelay: '0.5s' }}>business online From no-code agility to custom</span><br />
-                <span className="text-line" style={{ animationDelay: '0.6s' }}>development, we make workflows</span><br />
+                <span className="text-line" style={{ animationDelay: '0.5s' }}>business online From no</span><br />
+                <span className="text-line" style={{ animationDelay: '0.6s' }}>code agility to custom development, we make workflows</span><br />
                 <span className="text-line" style={{ animationDelay: '0.7s' }}>effortless and impactful.</span>
               </h2>
 
