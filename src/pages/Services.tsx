@@ -308,7 +308,7 @@ export default function Services({ onNavigate }: ServicesProps) {
                 <span className="text-line" style={{ animationDelay: '0.3s' }}>Reclaim your time for</span><br />
                 <span className="text-line" style={{ animationDelay: '0.4s' }}>What truly grows your</span><br />
                 <span className="text-line" style={{ animationDelay: '0.5s' }}>business online from idea</span><br />
-                <span className="text-line" style={{ animationDelay: '0.6s' }}>To a full custom Website,</span><br />
+                <span className="text-line" style={{ animationDelay: '0.6s' }}>To a fully custom Website,</span><br />
               </h2>
 
               {/* Floating particles effect */}
