@@ -301,7 +301,7 @@ export default function MissionSection() {
 
             <div className="relative z-10">
               <h2 className="text-5xl font-bold text-white mb-6">Enhanced Outcomes.</h2>
-              <h3 className="text-3xl font-bold text-white mb-8">Fast, Functional, Effective</h3>
+              <h3 className="text-3xl font-bold text-white mb-8">Fast, Functional & Effective</h3>
 
               <div className="flex justify-center mb-8">
                 <div className="relative">
