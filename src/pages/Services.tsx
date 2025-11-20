@@ -269,7 +269,7 @@ export default function Services({ onNavigate }: ServicesProps) {
                   <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 image-glow"></div>
 
                   {/* Main image container with glass effect */}
-                  <div className="relative overflow-hidden rounded-1xl">
+                  <div className="relative overflow-hidden rounded-2xl">
                     <img
                       src="public/pic.png"
                       alt="Website development demo"
