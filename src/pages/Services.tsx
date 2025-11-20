@@ -233,7 +233,7 @@ export default function Services({ onNavigate }: ServicesProps) {
   id="services-showcase-2" 
   aria-label="Services showcase" 
   className="relative py-[120px] overflow-hidden"
-  style={{ backgroundColor: '#2a2a2a' }} // Light matt black background
+  style={{ backgroundColor: '#031521' }} // Light matt black background
 >
   {/* Animated Background Elements */}
   <div className="absolute inset-0 pointer-events-none">
