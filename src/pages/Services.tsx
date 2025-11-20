@@ -469,7 +469,7 @@ export default function Services({ onNavigate }: ServicesProps) {
         }
 
         .minimal-service-item p {
-          font-family: 'Inter', 'DM Sans', sans-serif;
+          c
           line-height: 1.7;
           max-width: 90%;
         }
