@@ -335,7 +335,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             <span className="w-1.5 h-1.5 rounded-full bg-[#00c2b3] badge-dot-pulse"></span>
             Newly Added
           </div>
-          <h2 className="text-5xl md:text-6xl lg:text-5xl font-black text-white mb-6 leading-tight gradient-text-reveal">
+          <h2 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 leading-tight gradient-text-reveal">
             AI Agents & Chatbot Integration
           </h2>
           <p className="text-lg md:text-xl text-[#bdbdbd] mb-8 leading-relaxed text-fade-in">
