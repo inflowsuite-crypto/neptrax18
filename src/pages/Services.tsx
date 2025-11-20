@@ -179,14 +179,14 @@ export default function Services({ onNavigate }: ServicesProps) {
       </section>
 
 {/* Minimalist Services Gallery - FIXED */}
-<section ref={servicesGridRef} className="relative py-32 bg-white">
+<section ref={servicesGridRef} className="relative py-32 services-gradient-section">
   <div className="max-w-7xl mx-auto px-8 md:px-12 lg:px-16">
     {/* Section Header */}
     <div className="mb-24 text-center">
-      <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 tracking-tight">
+      <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight services-section-title">
         What We Offer
       </h2>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto font-light">
+      <p className="text-xl text-gray-300 max-w-2xl mx-auto font-light services-section-text">
         Comprehensive solutions designed to elevate your digital presence
       </p>
     </div>
@@ -197,27 +197,27 @@ export default function Services({ onNavigate }: ServicesProps) {
         <div
           key={index}
           ref={(el) => (cardsRef.current[index] = el)}
-          className="minimal-service-item group relative py-8 border-t border-gray-200"
+          className="minimal-service-item group relative py-8 border-t border-gray-700"
         >
           {/* Content Container - FIXED PADDING */}
           <div className="flex gap-6 items-start">
             {/* Number - FIXED POSITIONING */}
-            <div className="flex-shrink-0 text-5xl font-bold text-gray-200 transition-all duration-500 group-hover:text-gray-300 group-hover:scale-110 min-w-[60px]">
+            <div className="flex-shrink-0 text-5xl font-bold text-gray-400 transition-all duration-500 group-hover:text-gray-300 group-hover:scale-110 min-w-[60px] services-section-text">
               {String(index + 1).padStart(2, '0')}
             </div>
 
             {/* Text Content - FIXED WIDTH MANAGEMENT */}
             <div className="flex-1 min-w-0"> {/* This prevents text overflow */}
               {/* Title */}
-              <h3 className="text-xl md:text-2xl font-bold text-black mb-3 tracking-tight break-words">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-3 tracking-tight break-words services-section-text">
                 {service.title}
               </h3>
 
               {/* Expanding Line */}
-              <div className="minimal-line w-0 h-px bg-black mb-4 transition-all duration-700 group-hover:w-16"></div>
+              <div className="minimal-line w-0 h-px bg-white mb-4 transition-all duration-700 group-hover:w-16"></div>
 
               {/* Description - FIXED TEXT WRAPPING */}
-              <p className="text-gray-600 leading-relaxed font-light text-base break-words">
+              <p className="text-gray-300 leading-relaxed font-light text-base break-words services-section-text">
                 {service.description}
               </p>
             </div>
@@ -229,7 +229,7 @@ export default function Services({ onNavigate }: ServicesProps) {
 </section>
 
       {/* Services Showcase Section */}
-      <section id="services-showcase-2" aria-label="Services showcase" className="relative bg-[#0b0b0b] py-[120px] overflow-hidden">
+      <section id="services-showcase-2" aria-label="Services showcase" className="relative services-gradient-section py-[120px] overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="floating-orb floating-orb-1"></div>
@@ -384,6 +384,58 @@ export default function Services({ onNavigate }: ServicesProps) {
 
       {/* Enhanced Modern Animation Styles */}
       <style jsx>{`
+        /* ============================================
+           SERVICES GRADIENT SECTION - PREMIUM STYLING
+           ============================================ */
+
+        /* Premium gradient background from "What We Offer" section to page end */
+        .services-gradient-section {
+          background: linear-gradient(
+            180deg,
+            #0d1a30 0%,
+            #0a1528 25%,
+            #070f1f 50%,
+            #040a16 75%,
+            #000005 100%
+          );
+          position: relative;
+        }
+
+        /* Inter font family for all "What We Offer" section text */
+        .services-section-title,
+        .services-section-text,
+        .minimal-service-item h3,
+        .minimal-service-item p,
+        .minimal-service-item > div {
+          font-family: 'Inter', 'DM Sans', sans-serif;
+        }
+
+        /* Enhanced text rendering for premium appearance */
+        .services-gradient-section * {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Subtle overlay for enhanced depth */
+        .services-gradient-section::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          background: radial-gradient(
+            ellipse at top,
+            rgba(13, 26, 48, 0.3) 0%,
+            transparent 60%
+          );
+          pointer-events: none;
+          z-index: 1;
+        }
+
+        /* Ensure content is above overlay */
+        .services-gradient-section > div {
+          position: relative;
+          z-index: 2;
+        }
+
         /* ============================================
            MINIMALIST GALLERY ANIMATIONS
            ============================================ */
