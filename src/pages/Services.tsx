@@ -361,7 +361,7 @@ export default function Services({ onNavigate }: ServicesProps) {
               <img
                 src="public/ai.png"
                 alt="AI Chatbot demo"
-                className="w-full h-[500px] object-cover image-float"
+                className="w-full h-[500px] object-cover"
               />
               {/* Overlay gradient animation */}
               <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 via-transparent to-cyan-500/10 opacity-0 hover:opacity-100 transition-opacity duration-700"></div>
