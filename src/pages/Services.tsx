@@ -396,7 +396,6 @@ export default function Services({ onNavigate }: ServicesProps) {
     #040a16 12%,
     #070f1f 25%,
     #0a1528 40%,
-    #fcfcfc 50%,
     #0a1528 60%,
     #070f1f 75%,
     #040a16 88%,
