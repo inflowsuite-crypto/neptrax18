@@ -151,8 +151,8 @@ export default function Services({ onNavigate }: ServicesProps) {
         }`}>
           <div className="mb-8">
             <h1 className="text-6xl md:text-8xl font-black mb-6">
-              <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-teal-500 bg-clip-text text-transparent animate-glow-text">
-                OUR SERVICES
+              <span className="bg-gradient-to-r from-[#13474f] via-[#COLOR_2_HEX] to-[#COLOR_3_HEX] bg-clip-text text-transparent animate-glow-text">
+                Our Services
               </span>
             </h1>
           </div>
