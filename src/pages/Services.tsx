@@ -336,7 +336,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             Newly Added
           </div>
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight gradient-text-reveal">
-            Integrated AI Agents & Chatbots
+            AI Agents & Chatbots Integration
           </h2>
           <p className="text-lg md:text-xl text-[#bdbdbd] mb-8 leading-relaxed text-fade-in">
             We design AI Agents for natural user interaction, paired with a reasoning agent that plans and executes tasks, making your daily work simpler and more efficient.
