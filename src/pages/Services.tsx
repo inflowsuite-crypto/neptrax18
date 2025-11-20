@@ -339,7 +339,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             Integrated AI Chatbot & Agents
           </h2>
           <p className="text-lg md:text-xl text-[#bdbdbd] mb-8 leading-relaxed text-fade-in">
-            Your Dedicated AI Support Bot, Built Just for Coaches
+            We design AI Agents for natural user interaction, paired with a reasoning agent that plans and executes tasks, making your daily work simpler and more efficient.
           </p>
           <button
             className="cta-outline group inline-flex items-center gap-2 px-7 py-3.5 rounded-full border-[1.5px] border-white/12 text-white transition-all duration-300 hover:bg-white/95 hover:text-[#2a2a2a] hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(0,0,0,0.6)] focus:outline-none focus:ring-2 focus:ring-[#00c2b3] focus:ring-offset-4 focus:ring-offset-[#2a2a2a] cta-enhanced"
