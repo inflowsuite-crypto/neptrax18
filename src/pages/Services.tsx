@@ -359,7 +359,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             {/* Main image container with glass effect */}
             <div className="relative overflow-hidden rounded-3xl glass-card border border-white/10 bg-[#333333]/50 backdrop-blur-sm">
               <img
-                src="public/portfolio/wildebrands.png"
+                src="public/ai.png"
                 alt="AI Chatbot demo"
                 className="w-full h-[500px] object-cover image-float"
               />
