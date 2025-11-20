@@ -392,7 +392,7 @@ export default function Services({ onNavigate }: ServicesProps) {
         .services-gradient-section {
           background: linear-gradient(
             180deg,
-            #fcfcfc 0%,
+            #0d1a30 0%,
             #0a1528 25%,
             #070f1f 50%,
             #040a16 75%,
