@@ -303,7 +303,7 @@ export default function Services({ onNavigate }: ServicesProps) {
               {/* Text with gradient animation and word reveal */}
               <h2 className="display-hero text-7xl md:text-7xl lg:text-7xl xl:text-6xl font-black leading-[0.98] tracking-tight text-hero-animated">
                 <span className="text-line" style={{ animationDelay: '0.1s' }}>Accelerate results</span><br />
-                <span className="text-line" style={{ animationDelay: '0.2s' }}>Simplify operations.
+                <span className="text-line" style={{ animationDelay: '0.2s' }}>Simplify operations
 </span><br />
                 <span className="text-line" style={{ animationDelay: '0.3s' }}>Reclaim your time for</span><br />
                 <span className="text-line" style={{ animationDelay: '0.4s' }}>What truly grows your</span><br />
