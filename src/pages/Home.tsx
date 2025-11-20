@@ -87,7 +87,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <HeroAnimations isMobile={isMobile} />
 
-        <div className="absolute inset-0 opacity-100">
+        <div className="absolute inset-0 opacity-20">
           <Silk
             speed={isMobile ? 4 : 8}
             scale={isMobile ? 0.8 : 1}
